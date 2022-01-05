@@ -1,0 +1,42 @@
+/* -------------media phones------------------------ */
+
+@media only screen and (min-width: 641px) and (max-width: 1024px){
+
+	/* -------------header----------------------------- */
+
+	.vft-image-container{
+		width: 20%;
+	}
+	.vft-logo-container-company-name{
+		width: 80%;
+	}
+	/* ------------------------------------------------ */
+	/* --------web side under construction------------- */
+
+	.vft-construction-container-header{
+		width: 80%;
+	}
+	/* ------------------------------------------------ */
+	.vft-subskribe-form{
+		margin-left:20%;
+
+	}
+	.big-logo,
+	.big-logo-star-container{
+		width: 300px;
+		height: 300px;
+		bottom: -10%;
+		right: -8%;	
+	 }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+	.big-logo,
+	.big-logo-star-container{
+		width: 450px;
+		height: 450px;
+	 }
+
+
+}

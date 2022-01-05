@@ -1,0 +1,176 @@
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box; 
+			box-sizing: border-box;
+}
+/*---------------Project classes--------------------*/
+.flex{
+	display: flex;
+}
+.font-titillium{
+	font-family: 'titillium_webbold';
+}
+.font-titillium-black{
+	font-family: 'titillium_web_blackregular';
+}
+.font-titillium-regular{
+	font-family: 'titillium_webregular';
+}
+
+/*--------------------------------------------------*/
+body{
+	font-size: 62.5%;
+	font-family: 'titillium_webregular';
+	overflow: hidden ;
+}
+.vft-wrap{
+	max-width: 100vw;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 70%;
+	padding-top: 13vh;
+}
+/* -------------header----------------------------- */
+.vft-image-container{
+	width: 14%;
+	justify-content: flex-end;
+	padding-right: 16px;
+}
+.vft-logo-container{
+
+}
+.vft-logo-container-company-name{
+	width: 86%;
+}
+.vft-company-name{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.8em;
+	color: #001FCF;
+}
+.vft-company-name li:nth-child(2){
+	color:  red;
+}
+/* ------------------------------------------------ */
+/* --------web side under construction------------- */
+.vft-construction-container{
+	margin-top: 10vh;
+	height: auto;
+}
+.vft-construction-container-image{
+	height: 62px;
+	width: 62px;
+}
+.vft-construction-container-header{
+	margin: 40px 0;
+	width: 86%;
+	font-size: 3.6em;
+	height: 50px;
+}
+/* ------------------------------------------------ */
+/* ------------email fomr-------------------------- */
+.vft-subskribe-form{
+	flex-direction: column;
+	margin-left: 14%;
+}
+.vft-input-label{
+	font-size: 1.2em;
+}
+.vft-notify-btn{
+	width: 258px;
+	height: 64px;
+	border: none;
+	border-radius: 60px;
+	color: #ffffff;
+	font-size: 1.8em;
+	background: linear-gradient(201.32deg, #3251FF 0%, #0000AF 100%);
+	margin-top: 8vh;
+}
+.vft-input-wrap{
+	align-items: center;
+	padding-top: 32px;
+}
+.vft-email-input{
+	width: 258px;
+	height: 32px;
+	border: 1px solid #C4C4C4;
+	border-radius: 33px;
+}
+.vft-email-input[type=email]{
+	font-size: 1.6em;
+	line-height: 132%;
+	letter-spacing: 0.01em;
+	padding-left: 20px;
+}
+.vft-clear-icon{
+	margin: 0 10px;
+}
+.vft-error-email{
+	font-size: 1.2em;
+	line-height: 132%;
+}
+
+.vtf-form-label-wrap{
+	display: flex;
+	
+}
+.vft-thanks-massage{
+	font-size: 1.4em;
+	margin-right: 10px;
+}
+/* ----animation------- */
+.big-logo,
+.big-logo-star-container{
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	bottom: -13%;
+	right: -7%;
+	border-radius: 50%;
+  }
+  .big-logo{
+	background-image: url('../img/Group12.png');
+	background-size: 350%;
+	background-position: 33% 73%;
+	position: absolute;
+  } 
+.big-logo-star-container{
+	background-image: url('../img/Group13.png');
+	background-size: 180%;
+	background-position: -8% 115%;
+}
+
+.big-logo:hover{
+	animation-name: big-logo-line;
+	animation-duration:1s ;
+	animation-fill-mode: forwards;
+	background-color: red;
+}
+
+.big-logo:hover .big-logo-star-container{
+	animation-name: big-logo-star;
+	animation-duration:1.5s ;
+	animation-fill-mode: forwards;
+}
+@keyframes big-logo-line{
+  	from{
+  		background-position: 33% 73%;
+  	}
+  	to { 
+    	background-position: 73% 33%;
+  	}  
+}
+@keyframes big-logo-star{
+  	from{
+  		background-position: -8% 115%;
+  	}
+  	to { 
+    	background-position: 110%  -3% ;
+  	}  
+}

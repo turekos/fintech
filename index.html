@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/media-mobile-small.css">
+		<link rel="stylesheet" href="css/media-mobile.css">
+		<link rel="stylesheet" href="css/media-tablets.css">
+		<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="js/script.js"></script>
+		<title>Vietnam FinTech Associations</title>
+	</head>
+	<body>
+		<div class="big-logo">
+			<div class="big-logo-star-container">
+			</div>
+		</div>
+		<div class="vft-wrap ">
+			<header class="vft-main-header">
+				<div class="vft-logo-container flex">
+					<div class="vft-image-container flex">				
+						<img src="img/logo.png" alt="logo-image" >
+					</div>
+ 					<div class="vft-logo-container-company-name">
+						<ul class="vft-company-name font-titillium">
+							<li>Vietnam</li>
+							<li>FinTech</li>
+							<li>Association</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<main class="vft-main-container">
+				<div class="vft-construction-container flex">
+					<div class="vft-image-container flex">
+						<img src="img/wheels.png" alt="wheels-image" class="vft-construction-container-image">
+					</div>
+					<h1 class="vft-construction-container-header font-titillium">Our website<span class="font-titillium-black"> is under construction!</span></h1>
+				</div>
+				<form  action="#"  id="emailForm" class="vft-subskribe-form flex">
+					<div class="vtf-form-label-wrap">
+						<span id="demo" class="vft-thanks-massage"></span><label for="email" class="vft-input-label font-titillium-regular" id="inputLabel"><span class="font-titillium">Sing up now</span> to get early notification of our <span class="font-titillium">launch date!</span></label>
+					</div>
+					<div class="vft-input-wrap flex">
+						 <input type="email" id="userEmail" class="vft-email-input">
+						 <img src="icons/clear-icon.svg" alt="clear-icon" class="vft-clear-icon" onclick = "hideElements()" alt="clear-icon">
+						 <span id="demo2" class="vft-error-email"></span>
+						 <img src="icons/checked-icon.svg" alt="checked-icon" class="vtf-email-checked" id="checked"> 
+					</div>
+					<button type="submit" class="vft-notify-btn font-titillium"  id="btn" onclick="checkEmail()">Notify Me</button>
+				</form>
+			</main>
+		</div>
+		<script>
+			document.getElementById("checked").style.visibility = "hidden";
+		</script>
+	</body>
+</html>

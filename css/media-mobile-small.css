@@ -1,0 +1,121 @@
+/* -------------media phones------------------------ */
+
+@media only screen and (max-width: 359px){
+	body{
+		overflow: hidden;
+	}
+	.vft-wrap{
+		background-image: none;
+	}
+	/* -------------header----------------------------- */
+
+	.vft-wrap{
+		padding: 7vh 0;
+	}
+	.vft-image-container{
+		padding: 0;
+	}
+	.vft-logo-container{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.vft-image-container{
+		width: 100%;
+		justify-content: center;
+	}
+	.vft-logo-container-company-name{
+		width: 100%;
+	}
+	.vft-company-name{
+		padding-top: 2vh;
+		display: flex;
+		justify-content: center;
+	}
+	.vft-company-name li:nth-child(2){
+		margin: 0 8px;
+	}
+	/* ------------------------------------------------ */
+	/* --------web side under construction------------- */
+	.vft-construction-container{
+		display: flex;
+		margin-top: 10vh;
+		height: auto;
+		.-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 4% 0;
+	}
+	.vft-construction-container-image{
+		margin: 2% 0;
+		height: 62px;
+		width: 62px;
+	}
+	.vft-construction-container-header{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding:0 20%;
+		margin: 2% 0 2% 0;
+	}
+	/* ------------------------------------------------ */
+	/* --------email fomr------------- */
+	.vft-subskribe-form{
+		margin-left: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.vft-input-label{
+		font-size: 1.3em;
+		line-height: 132%;
+		text-align: center;
+
+	}
+	.vft-notify-btn{
+		width: 278px;
+		height: 64px;
+		border: none;
+		margin-top: 5%;
+	}
+	.vft-input-wrap{
+		align-items: center;
+		padding-top: 5%;
+	}
+	.vft-email-input{
+		width: 278px;
+		height: 48px;
+	}
+	.vft-email-input[type=email]{
+		font-size: 1.6em;
+	}
+	.vft-clear-icon{
+		margin-left: -25px;
+		
+	}
+	.vtf-email-checked{
+		display: none;
+		
+	}
+	.vtf-form-label-wrap{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 5%;
+	}
+	.vft-thanks-massage{
+		margin-right: 0;
+	}
+	.vft-input-wrap{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+}
+
+
+
+
